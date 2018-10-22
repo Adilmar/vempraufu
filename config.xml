@@ -2,12 +2,12 @@
 <widget id="com.fenix.vempraufu" version="2.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Vem pra UFU</name>
     <description>
-     Aplicativo oficial do VemPraUFU
- </description>
- <author email="akanehar@gmail.com" href="http://lited.com.br">
+       Aplicativo oficial do VemPraUFU
+   </description>
+   <author email="akanehar@gmail.com" href="http://lited.com.br">
     Adilmar Coelho Dantas
 </author>
-<preference name="phonegap-version" value="cli-8.0.0" />
+<preference name="phonegap-version" value="cli-6.5.0" />
 <preference name="orientation" value="default" />
 <preference name="target-device" value="universal" />
 <preference name="fullscreen" value="true" />
@@ -20,13 +20,13 @@
 <preference name="show-splash-screen-spinner" value="true" />
 <preference name="auto-hide-splash-screen" value="true" />
 <preference name="disable-cursor" value="false" />
-<preference name="android-minSdkVersion" value="14" />
+<preference name="android-minSdkVersion" value="16" />
 <preference name="android-installLocation" value="auto" />
 <preference name="android-build-tool" value="gradle" />
 <preference name="loadUrlTimeoutValue" value="900000" />
 <content src="index.html" />
 <plugin name="cordova-plugin-whitelist" spec="1" />
-<plugin name="onesignal-cordova-plugin" spec="^2.3.3" />
+<gap:plugin name="onesignal-cordova-plugin" spec="^2.4.1" source="npm" />
 <plugin name="pushwoosh-cordova-plugin" spec="~7.0.4">
     <variable name="LOG_LEVEL" value="DEBUG" />
     <variable name="IOS_FOREGROUND_ALERT_TYPE" value="BANNER" />

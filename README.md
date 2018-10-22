@@ -2,5 +2,6 @@
 
 Aplicativo #VemPra UFU 
 
--PLataforma (Android)
+-Plataforma (Android)
+
 -Web Responsivo
